@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box !important;
+}
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box !important;
+  font-family: "Roboto Serif", serif;
+  background-color: #000;
+  color: #fff;
+}
+/* font-family: "Roboto Serif", serif;
+font-family: "Roboto", sans-serif; */
+/*
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 400px) {
+}
+*/
+
+/*BTNS*/
+.btn {
+  font-family: 'crang', sans-serif;
+  color: #500600;
+  background: url(../img/btn-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  font-size: 1.5rem;
+  height: 4.5rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover {
+  cursor: pointer;
+  filter: brightness(0.95);
+  transform: scale(0.97);
+}
+.btn:active {
+  filter: brightness(0.93);
+  transform: scale(0.95);
+}
+/*END BTNS*/
+/*SWIPER*/
+.swiper-bombpix {
+  display: grid;
+  grid-template-columns: 7rem calc(100% - 14rem) 7rem;
+  align-items: center;
+}
+.swiper {
+  width: 100%;
+  grid-column: 2/3;
+}
+.swiper-bombpix .button-prev img {
+  transform: rotate(180deg);
+  animation: buttonPrev 1s ease-in-out infinite;
+}
+.swiper-bombpix .button-next img {
+  animation: buttonNext 1s ease-in-out infinite;
+}
+.swiper-bombpix .button-next img,
+.swiper-bombpix .button-prev img {
+  width: 6rem;
+  margin: 0.5rem;
+}
+.swiper-bombpix .button-next:hover,
+.swiper-bombpix .button-prev:hover {
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .swiper-bombpix {
+    grid-template-columns: 4rem calc(100% - 8rem) 4rem;
+  }
+  .swiper-bombpix .button-next img,
+  .swiper-bombpix .button-prev img {
+    width: 3rem;
+  }
+}
+/*END SWIPER*/
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 400px) {
+}
