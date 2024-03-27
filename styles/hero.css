@@ -1,0 +1,37 @@
+.hero {
+  padding: 5rem 0;
+}
+.hero .row {
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 3rem));
+  align-items: center;
+}
+.hero .logo {
+  font-family: 'frank';
+  font-size: 12rem;
+  line-height: 0.8;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffdc1a;
+  margin-bottom: 1rem;
+}
+.hero .logo span {
+  font-size: 8.3rem;
+  color: #ffdc1a;
+}
+.hero .text-big {
+  color: #ffdc1a;
+  margin-bottom: 2rem;
+}
+.text-normal {
+  color: #c7c7c7;
+}
+.hero .composition {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.hero .composition .thorne {
+  width: 35rem;
+}

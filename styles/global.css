@@ -90,6 +90,14 @@ font-family: "frank", sans-serif;
   }
 }
 /*END SWIPER*/
+.text-big {
+  font-family: 'Roboto Serif', serif;
+  font-size: 1.9rem;
+}
+.text-normal {
+  font-family: 'Roboto Serif', serif;
+  font-size: 1.4rem;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
