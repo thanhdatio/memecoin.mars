@@ -1,0 +1,7 @@
+.play {
+  padding: 5rem 0;
+}
+.play .title,
+.play .text-normal {
+  text-align: center;
+}

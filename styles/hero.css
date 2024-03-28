@@ -3,8 +3,11 @@
 }
 .hero .row {
   display: grid;
-  grid-template-columns: repeat(2, calc(50% - 3rem));
+  grid-template-columns: 50% auto;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 .hero .logo {
   font-family: 'frank';
@@ -25,13 +28,14 @@
 }
 .text-normal {
   color: #c7c7c7;
+  margin-bottom: 2rem;
 }
 .hero .composition {
-  width: 100%;
+  width: 35rem;
   display: flex;
   justify-content: center;
   position: relative;
 }
 .hero .composition .thorne {
-  width: 35rem;
+  width: 100%;
 }

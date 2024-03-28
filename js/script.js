@@ -9,12 +9,12 @@ btnMobile.addEventListener('click', toggleMenu)
 /*MENU MOBILE */
 
 /*SWIPER */
-const swiperBombers = new Swiper('.swiper-bombers .swiper', {
+const swiperGlobal = new Swiper('.swiper-global .swiper', {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   navigation: {
-    nextEl: '.swiper-bombers .button-next',
-    prevEl: '.swiper-bombers .button-prev'
+    nextEl: '.swiper-global .button-next',
+    prevEl: '.swiper-global .button-prev'
   }
 })
 /*SWIPER */

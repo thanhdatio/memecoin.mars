@@ -1,0 +1,10 @@
+.slider {
+  padding: 5rem 0;
+}
+.slider .swiper-slide {
+  border-radius: 4rem;
+  overflow: hidden;
+}
+.slider .swiper-slide img {
+  width: 100%;
+}
