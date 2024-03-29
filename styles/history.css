@@ -24,8 +24,24 @@
   justify-content: center;
   position: relative;
 }
-.history .composition .throne {
+.history .composition .thorne {
   width: 100%;
+  position: relative;
+  z-index: 3;
+}
+.history .composition .circle {
+  width: 120%;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: -10%;
+}
+.history .composition .frog {
+  width: 17rem;
+  position: absolute;
+  z-index: 5;
+  top: 8.3rem;
+  left: calc(50% - 8.5rem);
 }
 .history .text-normal {
   color: #c7c7c7;
@@ -44,5 +60,10 @@
 @media (max-width: 576px){
   .history .composition {
     width: 25rem;
+  }
+  .history .composition .frog {
+    width: 11rem;
+    top: 8.3rem;
+    left: calc(50% - 5.5rem);
   }
 }
