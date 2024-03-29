@@ -15,3 +15,25 @@
 .power .thorne {
   width: 100%;
 }
+@media (max-width: 992px) {
+  .power .row {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .power .row {
+    grid-template-columns: 100%;
+  }
+  .power .col-image{
+    display: flex;
+    justify-content: center;
+  }
+  .power .thorne {
+    width: 35rem;
+  }
+}
+@media (max-width: 768px){
+  .power .thorne {
+    width: 25rem;
+  }
+}

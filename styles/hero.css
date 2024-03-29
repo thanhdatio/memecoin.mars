@@ -39,3 +39,35 @@
 .hero .composition .thorne {
   width: 100%;
 }
+@media (max-width: 992px) {
+  .hero .logo {
+    font-size: 9rem;
+  }
+  .hero .logo span {
+    font-size: 6.3rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero .row {
+    grid-template-columns: 100%;
+  }
+  .hero .col-image{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px){
+  .hero {
+    padding: 0rem 0;
+  }
+  .hero .logo {
+    font-size: 7rem;
+  }
+  .hero .logo span {
+    font-size: 4.8rem;
+  }
+  .hero .composition {
+    width: 25rem;
+  }
+}

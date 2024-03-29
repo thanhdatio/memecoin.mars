@@ -24,3 +24,24 @@
   max-width: 90%;
   max-height: 90%;
 }
+@media (max-width: 992px) {
+  .battle .composition .box {
+    height: 19rem;
+  }
+}
+@media (max-width: 768px) {
+  .battle .composition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .battle .composition .box {
+    width: 16rem;
+  }
+}
+@media (max-width: 576px) {
+  .battle .composition .box {
+    width: 15rem;
+    height: 15rem;
+  }
+}

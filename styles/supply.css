@@ -10,6 +10,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
+  width: 80%;
+  margin: 0 auto;
 }
 .supply .supplies .item {
   width: 20rem;
@@ -20,4 +22,35 @@
 }
 .supply .supplies .item img {
   width: 100%;
+}
+.supply .supplies .supply-title{
+  font-family: "Roboto Serif", serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: #ffdd1b;
+}
+.supply .supplies .text-normal{
+  margin-bottom: 0;
+}
+@media (max-width: 1200px) {
+  .supply .supplies {
+    width: 95%;
+  }
+}
+@media (max-width: 1200px) {
+  .supply .supplies {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .supply .supplies {
+    gap: 2rem
+  }
+  .supply .supplies .item {
+    width: 14rem;
+    grid-template-columns: 4rem 1fr;
+  }
+  .supply .supplies .supply-title {
+    font-size: 2rem;
+  }
 }

@@ -84,6 +84,7 @@ font-family: "frank", sans-serif;
   .swiper-global .button-next img,
   .swiper-global .button-prev img {
     width: 3rem;
+     margin: 0.5rem;
   }
 }
 /*END SWIPER*/
@@ -91,6 +92,7 @@ font-family: "frank", sans-serif;
   font-family: 'Roboto Serif', serif;
   font-size: 1.9rem;
   font-weight: 400;
+  line-height: 1.2;
 }
 .text-normal {
   font-family: 'Roboto Serif', serif;
@@ -135,6 +137,12 @@ font-family: "frank", sans-serif;
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+  .division {
+    height: 2rem;
+  }
 }
 @media (max-width: 400px) {
 }

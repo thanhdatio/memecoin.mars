@@ -30,3 +30,19 @@
 .history .text-normal {
   color: #c7c7c7;
 }
+@media (max-width: 768px) {
+  .history .row {
+    grid-template-columns: 100%;
+  }
+  .history .col-image{
+    align-items: center;
+    order: 2;
+  }
+}
+
+
+@media (max-width: 576px){
+  .history .composition {
+    width: 25rem;
+  }
+}

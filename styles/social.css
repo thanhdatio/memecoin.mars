@@ -1,0 +1,41 @@
+.social{
+  padding: 5rem 0;
+}
+.social .icon-group{
+  width:30rem;
+}
+.social .row{
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.social .row .btns{
+  margin-top: 3rem ;
+  display: flex;
+  gap: 1rem;
+}
+.social .row .btns img{
+  width: 4.5rem;
+}
+@media (max-width: 992px) {
+  .social .row {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .social .row {
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+  }
+  .social .col-image{
+    order: 2;
+  }
+}
+@media (max-width: 576px){ 
+  .social .icon-group {
+    width: 25rem;
+  }
+}

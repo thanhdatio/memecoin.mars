@@ -1,0 +1,14 @@
+footer{
+  background: #ffdd1b;
+  padding: 1.5rem;
+}
+footer .text-normal{
+  text-align: center;
+  margin-bottom: 0;
+  color: #000;
+}
+@media (max-width: 576px) {
+  footer .text-normal {
+    font-size: 1rem;
+  }
+}

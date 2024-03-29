@@ -1,0 +1,23 @@
+.paints {
+  padding: 8rem 0;
+}
+.paints .col{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+}
+.paints .col img{
+  width: 23rem;
+}
+@media (max-width: 576px){ 
+  .paints {
+    padding: 1rem 0;
+  }
+  .paints .col {
+    gap: 2rem;
+  }
+  .paints .col img {
+    width: 15rem;
+  }
+}
