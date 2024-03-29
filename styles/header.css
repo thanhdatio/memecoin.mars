@@ -27,7 +27,7 @@ header .btn-mobile-menu {
   header nav {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
   header .btn-mobile-menu {
     display: flex;
@@ -65,7 +65,7 @@ header .btn-mobile-menu {
     display: block;
     position: absolute;
     top: 8rem;
-    left: 50%;
+    /* left: 50%; */
     height: 0;
     transition: 0.3s all ease-in-out;
     visibility: hidden;
@@ -74,12 +74,14 @@ header .btn-mobile-menu {
     background: #fff;
     padding: 3rem;
     height: auto;
-    transform: scale(0) translateX(-50%);
-    transform-origin: top;
+    transform: scale(0);
+    /* transform: scale(0) translateX(-50%); */
+    transform-origin: top right;
   }
   header nav.active ul {
     visibility: visible;
-    transform: scale(1) translateX(-50%);
+    transform: scale(1) ;
+    /* transform: scale(1) translateX(-50%); */
     transform-origin: top;
   }
   header nav li {
