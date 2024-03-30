@@ -1,5 +1,4 @@
 .power {
-  padding: 5rem 0;
   background: url('../img/bg-tranparent.png');
   background-size: 100% 100%;
 }
@@ -12,7 +11,7 @@
   align-items: center;
   justify-content: center;
 }
-.power .thorne {
+.power .throne {
   width: 100%;
 }
 @media (max-width: 992px) {
@@ -24,16 +23,16 @@
   .power .row {
     grid-template-columns: 100%;
   }
-  .power .col-image{
+  .power .col-image {
     display: flex;
     justify-content: center;
   }
-  .power .thorne {
+  .power .throne {
     width: 35rem;
   }
 }
-@media (max-width: 768px){
-  .power .thorne {
+@media (max-width: 768px) {
+  .power .throne {
     width: 25rem;
   }
 }

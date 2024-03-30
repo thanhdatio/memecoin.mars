@@ -84,7 +84,7 @@ font-family: "frank", sans-serif;
   .swiper-global .button-next img,
   .swiper-global .button-prev img {
     width: 3rem;
-     margin: 0.5rem;
+    margin: 0.5rem;
   }
 }
 /*END SWIPER*/
@@ -127,6 +127,9 @@ font-family: "frank", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70% 100%;
+}
+section {
+  padding: 5rem 0;
 }
 @media (max-width: 1400px) {
 }

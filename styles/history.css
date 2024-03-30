@@ -1,6 +1,3 @@
-.history {
-  padding: 5rem 0;
-}
 .history .row {
   display: grid;
   grid-template-columns: auto 50%;
@@ -24,7 +21,7 @@
   justify-content: center;
   position: relative;
 }
-.history .composition .thorne {
+.history .composition .throne {
   width: 100%;
   position: relative;
   z-index: 3;
@@ -50,14 +47,13 @@
   .history .row {
     grid-template-columns: 100%;
   }
-  .history .col-image{
+  .history .col-image {
     align-items: center;
     order: 2;
   }
 }
 
-
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .history .composition {
     width: 25rem;
   }
