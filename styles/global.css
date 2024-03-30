@@ -146,6 +146,12 @@ section {
   .division {
     height: 2rem;
   }
+  section {
+    padding: 3rem 0;
+  }
 }
 @media (max-width: 400px) {
+  .division {
+    height: 1rem;
+  }
 }
