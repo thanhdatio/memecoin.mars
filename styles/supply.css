@@ -26,6 +26,13 @@
   font-size: 2.3rem;
   color: #ffdd1b;
 }
+.supply .contract p{
+  margin-top: 4rem;
+   text-align: center;
+   word-break: break-all;  line-height: 1;
+
+}
+
 .supply .supplies .text-normal {
   margin-bottom: 0;
 }
