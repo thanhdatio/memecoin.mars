@@ -41,7 +41,15 @@
   </head>
 
   <body>
-    <audio autoplay loop>
+    <div class="music-box">
+      <button class="play active">
+        <img src="./img/play-solid.svg" alt="" />
+      </button>
+      <button class="pause">
+        <img src="./img/pause-solid.svg" alt="" />
+      </button>
+    </div>
+    <audio loop class="music">
       <source src="./music/sound.mp3" type="audio/mpeg" />
       Seu navegador não suporta a tag de áudio.
     </audio>

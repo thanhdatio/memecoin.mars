@@ -28,7 +28,9 @@ font-family: "frank", sans-serif;
 @media (max-width: 400px) {
 }
 */
-
+body{
+  position: relative;
+}
 /*BTNS*/
 .btn {
   display: inline-flex;
@@ -48,6 +50,31 @@ font-family: "frank", sans-serif;
 .btn:active {
   filter: brightness(0.93);
   transform: scale(0.95);
+}
+.music-box{
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 100;
+}
+.music-box img{
+  width: 1rem;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(601%) hue-rotate(163deg) brightness(124%) contrast(100%);  ;
+}
+.music-box button:hover{
+  cursor: pointer;
+}
+.music-box button.active{
+  display: flex;
+}
+.music-box button{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0.2rem solid #fff;
+  border-radius: 100%;
 }
 /*END BTNS*/
 /*SWIPER*/

@@ -32,6 +32,11 @@
   }
 }
 @media (max-width: 768px) {
+  .power .title,
+  .power .subtitle,
+  .power .text-normal {
+    text-align: center;
+  }
   .power .throne {
     width: 25rem;
   }

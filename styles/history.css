@@ -44,6 +44,11 @@
   color: #c7c7c7;
 }
 @media (max-width: 768px) {
+  .history .subtitle,
+  .history .text-normal,
+  .history .title{
+    text-align: center;
+  }
   .history .row {
     grid-template-columns: 100%;
   }
@@ -54,6 +59,7 @@
 }
 
 @media (max-width: 576px) {
+ 
   .history .composition {
     width: 25rem;
   }
